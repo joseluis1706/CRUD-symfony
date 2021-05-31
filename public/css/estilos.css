@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    background: lightblue;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+form{
+    width: 458px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+a{
+    width: 19.5%;
+    margin-right: 0.625%;
+    align-content: center;
+    text-align: center;
+    line-height: 3;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: green;
+}
+
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+
+table{
+    background-color: white;
+    border-collapse: collapse;
+    text-align: left;
+    width: 50%;
+}
+
+thead{
+    text-align: center;
+    background-color: #246355;
+    border-bottom: solid 5px #0F362D;
+    color: white;
+}
+th, td{
+    text-align: center;
+}
+
+#tablaShow{
+    width: 20%;
+}
+
+#boton{
+    background: #31384A;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#boton:hover{
+    cursor: pointer;
+}
